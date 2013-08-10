@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DragonBones">
+      <UniqueIdentifier>{56132458-6e5a-4339-9b27-f01dcc4bc9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\animation">
+      <UniqueIdentifier>{5f5c0b45-cd68-49ee-8a8d-1ef6fd4f9d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\core">
+      <UniqueIdentifier>{87493a9a-d821-4628-b5fd-f573fa730d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\display">
+      <UniqueIdentifier>{4100f2ae-0c78-433b-bcc8-b3d8616f222b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\events">
+      <UniqueIdentifier>{87d47930-6827-4907-903b-dfddb14abe18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\factorys">
+      <UniqueIdentifier>{808b0cb7-4267-42d0-a72f-21c41fb8ad50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\objects">
+      <UniqueIdentifier>{8343179b-eaef-46e3-94e7-2f8a0f180406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\utils">
+      <UniqueIdentifier>{0bf2e856-e8b1-45c7-9bb0-4e9dca8d164a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones">
+      <UniqueIdentifier>{52764a2a-3221-4760-99d4-e85119e0b02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\textures">
+      <UniqueIdentifier>{c9fab1a4-204b-49ab-933d-6f00e7741e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DragonBones\as3">
+      <UniqueIdentifier>{3b55f14b-cfff-45d0-a6b3-d8c44d1bf64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\animation">
+      <UniqueIdentifier>{7cde0d58-df2d-462a-b181-3fe3d08f14aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\as3">
+      <UniqueIdentifier>{89110f40-b412-4574-8039-52de71c28d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\core">
+      <UniqueIdentifier>{bf632400-35fe-4032-9700-43354f03aaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\display">
+      <UniqueIdentifier>{fae40a53-8e18-496e-9815-34f20996c808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\events">
+      <UniqueIdentifier>{7ac95af0-55a1-4e0a-aa8e-e3aeac7cd4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\factories">
+      <UniqueIdentifier>{56c46463-13c9-4253-8db6-027c9046d8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\objects">
+      <UniqueIdentifier>{6ca0a3b8-296c-4486-bdad-d9d5c4a18a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\textures">
+      <UniqueIdentifier>{be13599b-fc5c-44bd-b162-170f910a6489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragonBones\utils">
+      <UniqueIdentifier>{875a6eca-40b1-4fdf-89d3-ee08e93a7547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSON">
+      <UniqueIdentifier>{f3c7c15a-6908-463f-b55f-26c883aa83af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOIL">
+      <UniqueIdentifier>{c1803819-7730-4a78-b249-13c4c6b1f83d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DragonBones\Armature.cpp">
+      <Filter>Source Files\DragonBones</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\Bone.cpp">
+      <Filter>Source Files\DragonBones</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\Slot.cpp">
+      <Filter>Source Files\DragonBones</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\animation\Animation.cpp">
+      <Filter>Source Files\DragonBones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\animation\AnimationState.cpp">
+      <Filter>Source Files\DragonBones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\animation\TimelineState.cpp">
+      <Filter>Source Files\DragonBones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\animation\WorldClock.cpp">
+      <Filter>Source Files\DragonBones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\ColorTransform.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\DisplayObject.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\DisplayObjectContainer.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\Event.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\EventDispatcher.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\Shader.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\core\DBObject.cpp">
+      <Filter>Source Files\DragonBones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\display\DisplayBridge.cpp">
+      <Filter>Source Files\DragonBones\display</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\events\FrameEvent.cpp">
+      <Filter>Source Files\DragonBones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\factories\DBFactory.cpp">
+      <Filter>Source Files\DragonBones\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\AnimationData.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\ArmatureData.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\SkeletonData.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\TimeLine.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\TranformTimeline.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\objects\JSONParser.cpp">
+      <Filter>Source Files\DragonBones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\utils\DBDataUtil.cpp">
+      <Filter>Source Files\DragonBones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\utils\TransformUtils.cpp">
+      <Filter>Source Files\DragonBones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\textures\TextureAtlas.cpp">
+      <Filter>Source Files\DragonBones\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>Source Files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>Source Files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>Source Files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL\image_DXT.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL\image_helper.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL\SOIL.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL\stb_image_aug.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\Image.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\as3\Texture.cpp">
+      <Filter>Source Files\DragonBones\as3</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\events\ArmatureEvent.cpp">
+      <Filter>Source Files\DragonBones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonBones\events\AnimationEvent.cpp">
+      <Filter>Source Files\DragonBones\events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DragonBones\animation\Animation.h">
+      <Filter>Header Files\DragonBones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\animation\AnimationState.h">
+      <Filter>Header Files\DragonBones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\animation\IAnimatable.h">
+      <Filter>Header Files\DragonBones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\animation\TimelineState.h">
+      <Filter>Header Files\DragonBones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\animation\WorldClock.h">
+      <Filter>Header Files\DragonBones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\core\DBObject.h">
+      <Filter>Header Files\DragonBones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\ColorTransform.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\DisplayObject.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\DisplayObjectContainer.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\EventDispatcher.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Event.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Object.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Shader.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Vector2D.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\AnimationData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\ArmatureData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\BoneData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\DBTransform.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\DisplayData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\Frame.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\SkeletonData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\SkinData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\SlotData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\SubTextureData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\TextureAtlasData.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\TimeLine.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\TransformFrame.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\TransformTimeline.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\utils\DBDataUtil.h">
+      <Filter>Header Files\DragonBones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\utils\TransformUtil.h">
+      <Filter>Header Files\DragonBones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\objects\JSONParser.h">
+      <Filter>Header Files\DragonBones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\textures\TextureAtlas.h">
+      <Filter>Header Files\DragonBones\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\factories\DBFactory.h">
+      <Filter>Header Files\DragonBones\factorys</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\events\FrameEvent.h">
+      <Filter>Header Files\DragonBones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\display\DisplayBridge.h">
+      <Filter>Header Files\DragonBones\display</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\Slot.h">
+      <Filter>Header Files\DragonBones</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\Armature.h">
+      <Filter>Header Files\DragonBones</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\Bone.h">
+      <Filter>Header Files\DragonBones</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\DragonBones.h">
+      <Filter>Header Files\DragonBones</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>Source Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\image_DXT.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\image_helper.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\SOIL.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\stb_image_aug.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\stbi_DDS_aug.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL\stbi_DDS_aug_c.h">
+      <Filter>Source Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Texture.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\as3\Image.h">
+      <Filter>Header Files\DragonBones\as3</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\events\ArmatureEvent.h">
+      <Filter>Header Files\DragonBones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonBones\events\AnimationEvent.h">
+      <Filter>Header Files\DragonBones\events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl">
+      <Filter>Source Files\JSON</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>Source Files\JSON</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>Source Files\JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>

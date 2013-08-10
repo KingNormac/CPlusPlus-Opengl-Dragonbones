@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DragonBones\animation\Animation.cpp" />
+    <ClCompile Include="DragonBones\animation\AnimationState.cpp" />
+    <ClCompile Include="DragonBones\animation\TimelineState.cpp" />
+    <ClCompile Include="DragonBones\animation\WorldClock.cpp" />
+    <ClCompile Include="DragonBones\Armature.cpp" />
+    <ClCompile Include="DragonBones\as3\ColorTransform.cpp" />
+    <ClCompile Include="DragonBones\as3\DisplayObject.cpp" />
+    <ClCompile Include="DragonBones\as3\DisplayObjectContainer.cpp" />
+    <ClCompile Include="DragonBones\as3\Event.cpp" />
+    <ClCompile Include="DragonBones\as3\EventDispatcher.cpp" />
+    <ClCompile Include="DragonBones\as3\Texture.cpp" />
+    <ClCompile Include="DragonBones\as3\Shader.cpp" />
+    <ClCompile Include="DragonBones\as3\Image.cpp" />
+    <ClCompile Include="DragonBones\Bone.cpp" />
+    <ClCompile Include="DragonBones\core\DBObject.cpp" />
+    <ClCompile Include="DragonBones\display\DisplayBridge.cpp" />
+    <ClCompile Include="DragonBones\events\AnimationEvent.cpp" />
+    <ClCompile Include="DragonBones\events\ArmatureEvent.cpp" />
+    <ClCompile Include="DragonBones\events\FrameEvent.cpp" />
+    <ClCompile Include="DragonBones\factories\DBFactory.cpp" />
+    <ClCompile Include="DragonBones\objects\AnimationData.cpp" />
+    <ClCompile Include="DragonBones\objects\ArmatureData.cpp" />
+    <ClCompile Include="DragonBones\objects\JSONParser.cpp" />
+    <ClCompile Include="DragonBones\objects\SkeletonData.cpp" />
+    <ClCompile Include="DragonBones\objects\TimeLine.cpp" />
+    <ClCompile Include="DragonBones\objects\TranformTimeline.cpp" />
+    <ClCompile Include="DragonBones\Slot.cpp" />
+    <ClCompile Include="DragonBones\textures\TextureAtlas.cpp" />
+    <ClCompile Include="DragonBones\utils\DBDataUtil.cpp" />
+    <ClCompile Include="DragonBones\utils\TransformUtils.cpp" />
+    <ClCompile Include="json\json_reader.cpp" />
+    <ClCompile Include="json\json_value.cpp" />
+    <ClCompile Include="json\json_writer.cpp" />
+    <ClCompile Include="SOIL\image_DXT.c" />
+    <ClCompile Include="SOIL\image_helper.c" />
+    <ClCompile Include="SOIL\SOIL.c" />
+    <ClCompile Include="SOIL\stb_image_aug.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DragonBones\animation\Animation.h" />
+    <ClInclude Include="DragonBones\animation\AnimationState.h" />
+    <ClInclude Include="DragonBones\animation\IAnimatable.h" />
+    <ClInclude Include="DragonBones\animation\TimelineState.h" />
+    <ClInclude Include="DragonBones\animation\WorldClock.h" />
+    <ClInclude Include="DragonBones\Armature.h" />
+    <ClInclude Include="DragonBones\as3\ColorTransform.h" />
+    <ClInclude Include="DragonBones\as3\DisplayObject.h" />
+    <ClInclude Include="DragonBones\as3\DisplayObjectContainer.h" />
+    <ClInclude Include="DragonBones\as3\Event.h" />
+    <ClInclude Include="DragonBones\as3\EventDispatcher.h" />
+    <ClInclude Include="DragonBones\as3\Texture.h" />
+    <ClInclude Include="DragonBones\as3\Object.h" />
+    <ClInclude Include="DragonBones\as3\Shader.h" />
+    <ClInclude Include="DragonBones\as3\Image.h" />
+    <ClInclude Include="DragonBones\as3\Vector2D.h" />
+    <ClInclude Include="DragonBones\Bone.h" />
+    <ClInclude Include="DragonBones\core\DBObject.h" />
+    <ClInclude Include="DragonBones\display\DisplayBridge.h" />
+    <ClInclude Include="DragonBones\DragonBones.h" />
+    <ClInclude Include="DragonBones\events\AnimationEvent.h" />
+    <ClInclude Include="DragonBones\events\ArmatureEvent.h" />
+    <ClInclude Include="DragonBones\events\FrameEvent.h" />
+    <ClInclude Include="DragonBones\factories\DBFactory.h" />
+    <ClInclude Include="DragonBones\objects\AnimationData.h" />
+    <ClInclude Include="DragonBones\objects\ArmatureData.h" />
+    <ClInclude Include="DragonBones\objects\BoneData.h" />
+    <ClInclude Include="DragonBones\objects\DBTransform.h" />
+    <ClInclude Include="DragonBones\objects\DisplayData.h" />
+    <ClInclude Include="DragonBones\objects\Frame.h" />
+    <ClInclude Include="DragonBones\objects\JSONParser.h" />
+    <ClInclude Include="DragonBones\objects\SkeletonData.h" />
+    <ClInclude Include="DragonBones\objects\SkinData.h" />
+    <ClInclude Include="DragonBones\objects\SlotData.h" />
+    <ClInclude Include="DragonBones\objects\SubTextureData.h" />
+    <ClInclude Include="DragonBones\objects\TextureAtlasData.h" />
+    <ClInclude Include="DragonBones\objects\TimeLine.h" />
+    <ClInclude Include="DragonBones\objects\TransformFrame.h" />
+    <ClInclude Include="DragonBones\objects\TransformTimeline.h" />
+    <ClInclude Include="DragonBones\Slot.h" />
+    <ClInclude Include="DragonBones\textures\TextureAtlas.h" />
+    <ClInclude Include="DragonBones\utils\DBDataUtil.h" />
+    <ClInclude Include="DragonBones\utils\TransformUtil.h" />
+    <ClInclude Include="json\autolink.h" />
+    <ClInclude Include="json\config.h" />
+    <ClInclude Include="json\features.h" />
+    <ClInclude Include="json\forwards.h" />
+    <ClInclude Include="json\json.h" />
+    <ClInclude Include="json\json_batchallocator.h" />
+    <ClInclude Include="json\json_tool.h" />
+    <ClInclude Include="json\reader.h" />
+    <ClInclude Include="json\value.h" />
+    <ClInclude Include="json\writer.h" />
+    <ClInclude Include="SOIL\image_DXT.h" />
+    <ClInclude Include="SOIL\image_helper.h" />
+    <ClInclude Include="SOIL\SOIL.h" />
+    <ClInclude Include="SOIL\stbi_DDS_aug.h" />
+    <ClInclude Include="SOIL\stbi_DDS_aug_c.h" />
+    <ClInclude Include="SOIL\stb_image_aug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl" />
+    <None Include="json\json_internalmap.inl" />
+    <None Include="json\json_valueiterator.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D96CAFA5-C65C-415C-BCD6-E83F9508B6BA}</ProjectGuid>
+    <RootNamespace>DragonBones</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../DragonBones/;$(IncludePath)</IncludePath>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SOIL.lib;gflw3.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
